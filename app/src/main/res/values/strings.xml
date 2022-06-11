@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Manager</string>
+
+    <string name="login_text">Đăng nhập</string>
+    <string name="register_text">Tạo tài khoản mới</string>
+    <string name="home_text">Trang chủ</string>
+    <string name="fee_text">Chi phí</string>
+    <string name="business_fee">Công tác phí</string>
+    <string name="mail_box">Hộp thư</string>
+
+    <string name="contentImage">TODO</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
