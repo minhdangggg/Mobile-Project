@@ -3,7 +3,6 @@ package vn.adsun.app.manager.features.home;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
-import android.view.View;
 
 import androidx.annotation.NonNull;
 import androidx.viewpager2.widget.ViewPager2;
@@ -15,24 +14,21 @@ import com.google.android.material.navigation.NavigationBarView;
 import vn.adsun.app.manager.BaseActivity;
 import vn.adsun.app.manager.R;
 import vn.adsun.app.manager.adapter.MyViewPagerAdapter;
-import vn.adsun.app.manager.features.fee.AddFeeActivity;
+import vn.adsun.app.manager.features.dulichdilai.MenuDuLichActivity;
 
 
 public class HomeActivity extends BaseActivity {
 
     private BottomNavigationView bottomNavigationView;
     private ViewPager2 viewPager2;
-    private FloatingActionButton fab_plus;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
 
-
         setUpUI();
         setViewPager();
-
     }
 
     private void setViewPager() {
@@ -44,7 +40,7 @@ public class HomeActivity extends BaseActivity {
             @Override
             public void onPageSelected(int position) {
                 super.onPageSelected(position);
-                switch (position){
+                switch (position) {
                     case 0:
                         bottomNavigationView.getMenu().findItem(R.id.home).setChecked(true);
                         break;
@@ -66,7 +62,7 @@ public class HomeActivity extends BaseActivity {
         bottomNavigationView.setOnItemSelectedListener(new NavigationBarView.OnItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
-                switch (item.getItemId()){
+                switch (item.getItemId()) {
                     case R.id.home:
                         viewPager2.setCurrentItem(0);
                         break;
@@ -94,9 +90,12 @@ public class HomeActivity extends BaseActivity {
         bottomNavigationView.getMenu().findItem(R.id.placeholder).setEnabled(false);
         bottomNavigationView.setItemHorizontalTranslationEnabled(false);
         viewPager2 = findViewById(R.id.viewPager);
-        fab_plus = findViewById(R.id.fab_plus);
+        FloatingActionButton fab_plus = findViewById(R.id.fab_plus);
         fab_plus.setOnClickListener(v -> {
-            Intent intent = new Intent(this, AddFeeActivity.class);
+//            Intent intent = new Intent(this, AddFeeActivity.class);
+//            startActivity(intent);
+
+            Intent intent = new Intent(this, MenuDuLichActivity.class);
             startActivity(intent);
         });
     }

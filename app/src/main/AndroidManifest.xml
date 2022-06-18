@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".features.dulichdilai.AddChuyenActivity"
+            android:exported="false" />
+        <activity
+            android:name=".features.dulichdilai.MenuDuLichActivity"
+            android:exported="false" />
+        <activity
             android:name=".features.fee.AddFeeActivity"
             android:exported="false" />
         <activity

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/dulichdilai"
+        android:icon="@drawable/ic_baseline_backpack_24"
+        android:title="Du lịch - đi lại" />
+    <item
+        android:id="@+id/quanlyve"
+        android:icon="@drawable/ic_baseline_airplane_ticket_24"
+        android:title="Quản lý vé" />
+</menu>
