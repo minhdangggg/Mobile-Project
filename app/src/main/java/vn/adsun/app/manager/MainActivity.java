@@ -15,10 +15,10 @@ import vn.adsun.app.manager.modal.User;
 
 public class MainActivity extends BaseActivity {
 
-
     AppCompatButton btnLogin;
     public static User user;
     public static List<Schedule> scheduleList = new ArrayList<>();
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
