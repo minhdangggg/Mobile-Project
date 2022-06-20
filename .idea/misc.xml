@@ -24,15 +24,20 @@
         <entry key="..\:/Apps/Manager/app/src/main/res/layout/item_schedule.xml" value="0.2" />
         <entry key="..\:/Apps/Manager/app/src/main/res/menu/bottom_nav_menu.xml" value="0.13020833333333334" />
         <entry key="..\:/Users/16521/OneDrive/Documents/GitHub/Mobile-Project/app/src/main/res/drawable/botron_item_chuyen.xml" value="0.22916666666666666" />
+        <entry key="..\:/Users/16521/OneDrive/Documents/GitHub/Mobile-Project/app/src/main/res/drawable/botron_item_thongbao.xml" value="0.20572916666666666" />
         <entry key="..\:/Users/16521/OneDrive/Documents/GitHub/Mobile-Project/app/src/main/res/drawable/shape_radius.xml" value="0.19895833333333332" />
         <entry key="..\:/Users/16521/OneDrive/Documents/GitHub/Mobile-Project/app/src/main/res/drawable/shape_rect_radius.xml" value="0.1578125" />
-        <entry key="..\:/Users/16521/OneDrive/Documents/GitHub/Mobile-Project/app/src/main/res/layout/activity_add_chuyen.xml" value="0.4" />
+        <entry key="..\:/Users/16521/OneDrive/Documents/GitHub/Mobile-Project/app/src/main/res/layout/activity_add_chuyen.xml" value="0.152" />
+        <entry key="..\:/Users/16521/OneDrive/Documents/GitHub/Mobile-Project/app/src/main/res/layout/activity_danh_sach_chuyen_di.xml" value="0.264" />
         <entry key="..\:/Users/16521/OneDrive/Documents/GitHub/Mobile-Project/app/src/main/res/layout/activity_home.xml" value="0.4930795847750865" />
         <entry key="..\:/Users/16521/OneDrive/Documents/GitHub/Mobile-Project/app/src/main/res/layout/activity_menu.xml" value="0.25" />
         <entry key="..\:/Users/16521/OneDrive/Documents/GitHub/Mobile-Project/app/src/main/res/layout/activity_menu_du_lich.xml" value="0.264" />
+        <entry key="..\:/Users/16521/OneDrive/Documents/GitHub/Mobile-Project/app/src/main/res/layout/activity_user_info.xml" value="0.20677083333333332" />
         <entry key="..\:/Users/16521/OneDrive/Documents/GitHub/Mobile-Project/app/src/main/res/layout/fragment_du_lich_di_lai.xml" value="0.21822916666666667" />
         <entry key="..\:/Users/16521/OneDrive/Documents/GitHub/Mobile-Project/app/src/main/res/layout/item_chuyen.xml" value="0.2" />
+        <entry key="..\:/Users/16521/OneDrive/Documents/GitHub/Mobile-Project/app/src/main/res/layout/item_chuyen2.xml" value="0.264" />
         <entry key="..\:/Users/16521/OneDrive/Documents/GitHub/Mobile-Project/app/src/main/res/layout/item_feature.xml" value="0.264" />
+        <entry key="..\:/Users/16521/OneDrive/Documents/GitHub/Mobile-Project/app/src/main/res/layout/item_title_dsc.xml" value="0.264" />
         <entry key="..\:/Users/16521/OneDrive/Documents/GitHub/Mobile-Project/app/src/main/res/menu/bottom_dulich_dilai.xml" value="0.25" />
         <entry key="..\:/Users/16521/OneDrive/Documents/GitHub/Mobile-Project/app/src/main/res/menu/bottom_nav_menu.xml" value="0.25" />
       </map>

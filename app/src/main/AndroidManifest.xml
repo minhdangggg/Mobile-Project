@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".features.dulichdilai.DanhSachChuyenDiActivity"
+            android:exported="false" />
+        <activity
             android:name=".features.dulichdilai.AddChuyenActivity"
             android:exported="false" />
         <activity

@@ -6,6 +6,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.DisplayMetrics;
+import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
 import android.widget.ImageView;
@@ -55,6 +56,7 @@ public class AddChuyenActivity extends BaseActivity {
     }
 
     private void addEvent() {
+
         imgBack.setOnClickListener(v -> finish());
 
         edt_ngay.setOnClickListener(v -> {
@@ -64,6 +66,12 @@ public class AddChuyenActivity extends BaseActivity {
 //            datePickerDialog.getDatePicker().setMaxDate(new Date().getTime());
             datePickerDialog.show();
         });
+
+        llbuttonTimkiem.setOnClickListener(v -> {
+            Intent intent = new Intent(AddChuyenActivity.this, DanhSachChuyenDiActivity.class);
+            startActivity(intent);
+        });
+
     }
 
     //Set up ngày
