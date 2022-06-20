@@ -48,7 +48,7 @@
                     android:textSize="16sp"
                     android:textStyle="bold" />
 
-                <TextView
+                <EditText
                     android:id="@+id/tv_noidi"
                     android:layout_width="match_parent"
                     android:layout_height="45sp"
@@ -83,7 +83,7 @@
                     android:textSize="16sp"
                     android:textStyle="bold" />
 
-                <TextView
+                <EditText
                     android:id="@+id/tv_noiden"
                     android:layout_width="match_parent"
                     android:layout_height="45sp"

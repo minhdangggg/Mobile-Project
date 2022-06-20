@@ -15,7 +15,6 @@ import android.os.Bundle;
 import android.util.DisplayMetrics;
 import android.util.Log;
 import android.view.LayoutInflater;
-import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.Window;
@@ -29,7 +28,6 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
-import com.google.android.material.navigation.NavigationBarView;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -118,19 +116,16 @@ public class MenuDuLichActivity extends BaseActivity {
                 }
             }
         });
-        bottomNavigationView.setOnItemSelectedListener(new NavigationBarView.OnItemSelectedListener() {
-            @Override
-            public boolean onNavigationItemSelected(@NonNull MenuItem item) {
-                switch (item.getItemId()) {
-                    case R.id.dulichdilai:
-                        viewPager2.setCurrentItem(0);
-                        break;
-                    case R.id.quanlyve:
-                        viewPager2.setCurrentItem(1);
-                        break;
-                }
-                return true;
+        bottomNavigationView.setOnItemSelectedListener(item -> {
+            switch (item.getItemId()) {
+                case R.id.dulichdilai:
+                    viewPager2.setCurrentItem(0);
+                    break;
+                case R.id.quanlyve:
+                    viewPager2.setCurrentItem(1);
+                    break;
             }
+            return true;
         });
     }
 
@@ -276,9 +271,7 @@ public class MenuDuLichActivity extends BaseActivity {
                 } else if (duLich.getId() == 5) {
                     mBundle.putString("keyName", "Đặt phòng khách theo giờ");
                     Toast.makeText(context, "Tính năng hiện tại chưa phát triển", Toast.LENGTH_SHORT).show();
-
                 }
-
             });
             return view;
         }
@@ -323,5 +316,7 @@ public class MenuDuLichActivity extends BaseActivity {
             }
         }
     }
+
+
 
 }

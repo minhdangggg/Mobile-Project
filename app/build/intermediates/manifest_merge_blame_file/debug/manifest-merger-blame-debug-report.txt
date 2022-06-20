@@ -1,0 +1,108 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="vn.adsun.app.manager"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\16520\Desktop\Mobile-Project-main\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->C:\Users\16520\Desktop\Mobile-Project-main\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->C:\Users\16520\Desktop\Mobile-Project-main\app\src\main\AndroidManifest.xml:5:5-39:19
+12        android:allowBackup="true"
+12-->C:\Users\16520\Desktop\Mobile-Project-main\app\src\main\AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.7.0] C:\Users\16520\.gradle\caches\transforms-3\21249a56641fb0309777a5ae16ce99ff\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+14        android:debuggable="true"
+15        android:icon="@mipmap/ic_launcher"
+15-->C:\Users\16520\Desktop\Mobile-Project-main\app\src\main\AndroidManifest.xml:7:9-43
+16        android:label="@string/app_name"
+16-->C:\Users\16520\Desktop\Mobile-Project-main\app\src\main\AndroidManifest.xml:8:9-41
+17        android:roundIcon="@mipmap/ic_launcher_round"
+17-->C:\Users\16520\Desktop\Mobile-Project-main\app\src\main\AndroidManifest.xml:9:9-54
+18        android:supportsRtl="true"
+18-->C:\Users\16520\Desktop\Mobile-Project-main\app\src\main\AndroidManifest.xml:10:9-35
+19        android:testOnly="true"
+20        android:theme="@style/AppTheme" >
+20-->C:\Users\16520\Desktop\Mobile-Project-main\app\src\main\AndroidManifest.xml:11:9-40
+21        <activity
+21-->C:\Users\16520\Desktop\Mobile-Project-main\app\src\main\AndroidManifest.xml:12:9-14:40
+22            android:name="vn.adsun.app.manager.features.dulichdilai.DanhSachChuyenDiActivity"
+22-->C:\Users\16520\Desktop\Mobile-Project-main\app\src\main\AndroidManifest.xml:13:13-74
+23            android:exported="false" />
+23-->C:\Users\16520\Desktop\Mobile-Project-main\app\src\main\AndroidManifest.xml:14:13-37
+24        <activity
+24-->C:\Users\16520\Desktop\Mobile-Project-main\app\src\main\AndroidManifest.xml:15:9-17:40
+25            android:name="vn.adsun.app.manager.features.dulichdilai.AddChuyenActivity"
+25-->C:\Users\16520\Desktop\Mobile-Project-main\app\src\main\AndroidManifest.xml:16:13-67
+26            android:exported="false" />
+26-->C:\Users\16520\Desktop\Mobile-Project-main\app\src\main\AndroidManifest.xml:17:13-37
+27        <activity
+27-->C:\Users\16520\Desktop\Mobile-Project-main\app\src\main\AndroidManifest.xml:18:9-20:40
+28            android:name="vn.adsun.app.manager.features.dulichdilai.MenuDuLichActivity"
+28-->C:\Users\16520\Desktop\Mobile-Project-main\app\src\main\AndroidManifest.xml:19:13-68
+29            android:exported="false" />
+29-->C:\Users\16520\Desktop\Mobile-Project-main\app\src\main\AndroidManifest.xml:20:13-37
+30        <activity
+30-->C:\Users\16520\Desktop\Mobile-Project-main\app\src\main\AndroidManifest.xml:21:9-23:40
+31            android:name="vn.adsun.app.manager.features.fee.AddFeeActivity"
+31-->C:\Users\16520\Desktop\Mobile-Project-main\app\src\main\AndroidManifest.xml:22:13-56
+32            android:exported="false" />
+32-->C:\Users\16520\Desktop\Mobile-Project-main\app\src\main\AndroidManifest.xml:23:13-37
+33        <activity
+33-->C:\Users\16520\Desktop\Mobile-Project-main\app\src\main\AndroidManifest.xml:24:9-26:40
+34            android:name="vn.adsun.app.manager.features.userinfo.UserInfoActivity"
+34-->C:\Users\16520\Desktop\Mobile-Project-main\app\src\main\AndroidManifest.xml:25:13-63
+35            android:exported="false" />
+35-->C:\Users\16520\Desktop\Mobile-Project-main\app\src\main\AndroidManifest.xml:26:13-37
+36        <activity
+36-->C:\Users\16520\Desktop\Mobile-Project-main\app\src\main\AndroidManifest.xml:27:9-29:40
+37            android:name="vn.adsun.app.manager.features.home.HomeActivity"
+37-->C:\Users\16520\Desktop\Mobile-Project-main\app\src\main\AndroidManifest.xml:28:13-55
+38            android:exported="false" />
+38-->C:\Users\16520\Desktop\Mobile-Project-main\app\src\main\AndroidManifest.xml:29:13-37
+39        <activity
+39-->C:\Users\16520\Desktop\Mobile-Project-main\app\src\main\AndroidManifest.xml:30:9-38:20
+40            android:name="vn.adsun.app.manager.MainActivity"
+40-->C:\Users\16520\Desktop\Mobile-Project-main\app\src\main\AndroidManifest.xml:31:13-41
+41            android:exported="true" >
+41-->C:\Users\16520\Desktop\Mobile-Project-main\app\src\main\AndroidManifest.xml:32:13-36
+42            <intent-filter>
+42-->C:\Users\16520\Desktop\Mobile-Project-main\app\src\main\AndroidManifest.xml:33:13-37:29
+43                <action android:name="android.intent.action.MAIN" />
+43-->C:\Users\16520\Desktop\Mobile-Project-main\app\src\main\AndroidManifest.xml:34:17-69
+43-->C:\Users\16520\Desktop\Mobile-Project-main\app\src\main\AndroidManifest.xml:34:25-66
+44
+45                <category android:name="android.intent.category.LAUNCHER" />
+45-->C:\Users\16520\Desktop\Mobile-Project-main\app\src\main\AndroidManifest.xml:36:17-77
+45-->C:\Users\16520\Desktop\Mobile-Project-main\app\src\main\AndroidManifest.xml:36:27-74
+46            </intent-filter>
+47        </activity>
+48
+49        <provider
+49-->[androidx.emoji2:emoji2:1.0.0] C:\Users\16520\.gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+50            android:name="androidx.startup.InitializationProvider"
+50-->[androidx.emoji2:emoji2:1.0.0] C:\Users\16520\.gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+51            android:authorities="vn.adsun.app.manager.androidx-startup"
+51-->[androidx.emoji2:emoji2:1.0.0] C:\Users\16520\.gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+52            android:exported="false" >
+52-->[androidx.emoji2:emoji2:1.0.0] C:\Users\16520\.gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+53            <meta-data
+53-->[androidx.emoji2:emoji2:1.0.0] C:\Users\16520\.gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+54                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+54-->[androidx.emoji2:emoji2:1.0.0] C:\Users\16520\.gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+55                android:value="androidx.startup" />
+55-->[androidx.emoji2:emoji2:1.0.0] C:\Users\16520\.gradle\caches\transforms-3\beb1e8c1d1724370afa1be71eb324942\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+56            <meta-data
+56-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\16520\.gradle\caches\transforms-3\4d87c3e3b70abeed5e61faf08f3b9b5b\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+57                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+57-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\16520\.gradle\caches\transforms-3\4d87c3e3b70abeed5e61faf08f3b9b5b\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+58                android:value="androidx.startup" />
+58-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\16520\.gradle\caches\transforms-3\4d87c3e3b70abeed5e61faf08f3b9b5b\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+59        </provider>
+60    </application>
+61
+62</manifest>
